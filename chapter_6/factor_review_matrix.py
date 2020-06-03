@@ -4,9 +4,6 @@ import matrix_factorization_utilities
 
 
 def main():
-    import numpy as np
-    import pandas as pd
-    import matrix_factorization_utilities
 
     # Load user ratings
     raw_training_dataset_df = pd.read_csv('movie_ratings_data_set_training.csv')
