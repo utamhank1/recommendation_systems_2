@@ -16,7 +16,7 @@ def main():
     for i, value in enumerate(ratings):
         print(f"Updating rating: {i}")
         ratings[i] = value*2
-        
+
 
 if __name__ == "__main__":
     main()
